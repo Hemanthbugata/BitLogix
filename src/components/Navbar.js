@@ -60,7 +60,7 @@ const handleMouseLeave = () => {
 };
 
   return (
-    <div className="bg-black flex w-full h-[70px] sticky top-0">
+    <div className="bg-black flex w-full h-[70px] sticky top-0 z-50">
       <img src="/3.png" alt="" className="w-[100px] rounded-b-2xl" />
       <nav className="w-full flex justify-end md:ml-5">
         <Link

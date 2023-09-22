@@ -23,9 +23,6 @@ const injectedConnector = new InjectedConnector({
 
 
 function App() {
-  const[connected, setConnected] = useState(false);
-  const[address, setAddress] = useState("");
-  const{activate, active, account} = useWeb3React();
 
   return (
     <Router>
