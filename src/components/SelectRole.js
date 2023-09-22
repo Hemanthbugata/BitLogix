@@ -21,9 +21,9 @@ export default function Register() {
     <>
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="w-[90%] md:w-1/2 mt-12">
-          <img src="./role.png" alt="Role" />
+          <img src="./role.png" alt="Role" className="w-full mr-10"/>
         </div>
-        <div className="flex flex-col justify-center items-center mt-32">
+        <div className="flex flex-col justify-center items-center mt-20 md:mt-32">
           <div>
             <p className="font-bold text-4xl">Select your role</p>
           </div>

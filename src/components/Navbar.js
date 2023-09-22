@@ -60,18 +60,18 @@ const handleMouseLeave = () => {
 };
 
   return (
-    <div className="bg-slate-600 flex w-full h-[50px] sticky top-0 rounded-b-2xl">
-      <img src="/bitlogixlogo-transparent.png" alt="" className="w-[10%] rounded-b-2xl" />
+    <div className="bg-black flex w-full h-[70px] sticky top-0">
+      <img src="/3.png" alt="" className="w-[100px] rounded-b-2xl" />
       <nav className="w-full flex justify-end md:ml-5">
         <Link
           to="/"
-          className="rounded-lg m-1 p-1 h-[40px] md:h-auto md:p-2 text-center hover:bg-slate-400 text-white"
+          className="rounded-lg mt-2 self-center md:p-2 hover:bg-slate-900 text-white"
         >
           Home
         </Link>
         <Link
           to="/aboutus"
-          className="rounded-lg m-1 p-1 h-[40px] md:h-auto md:p-2 text-center hover:bg-slate-400 text-white"
+          className="rounded-lg mt-2 self-center md:p-2 hover:bg-slate-900 text-white"
         >
           About
         </Link>
@@ -79,8 +79,8 @@ const handleMouseLeave = () => {
           onClick={connectOrDisconnectWallet}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          className={`border-2 border-green-400 bg-green-700 hover:bg-green-500 p-2 rounded-3xl m-1 hover:text-white ${
-            account ? 'bg-red-700 hover:bg-red-500' : ''
+          className={`border-2 border-green-400 bg-[#adff45] hover:bg-green-500 px-2 rounded-3xl m-2 hover:text-white ${
+            account ? 'bg-red-600 hover:bg-red-500' : ''
           }`}
         >
           {account ? 'Disconnect Wallet' : 'Connect Wallet'}
